@@ -1,0 +1,58 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: #e5e5e5;
+}
+
+.nav-link{
+    color: #191919;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.titulo{
+    margin: 20px;
+}
+/* Prevent image stretching as it's resized */
+.card-img-top {
+    object-fit: cover;
+}
+
+/* Make all cards in row the same height */
+.row {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.row  div[class*='col-'] {
+  display: flex;
+}
+
+.card {
+  transition: -webkit-transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.01, 1.01);
+}
+
+.texto-footer{
+    color: #e3e3e3;
+}
+
+button a{
+    color: white;
+}
+
+button a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.iniprod{
+margin-left: 20px;
+
+
+}
